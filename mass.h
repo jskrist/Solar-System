@@ -29,8 +29,8 @@ class mass {
 		bool isCollided;
 
 		//Member Functions
-        template <class T>
-        T sign(T num)
+		template <class T>
+		T sign(T num)
 		{
 			if(num < 0)
 				return -1;
@@ -59,8 +59,8 @@ class mass {
 		double getPosY ();
 
 		//Modifier Functions
-	    void setRad (const double&);
-	    void setMass (const double&);
+		void setRad (const double&);
+		void setMass (const double&);
 		void setPos(const double&, const double&);
 		void setVel(const double&, const double&);
 		void setAcc(const double&, const double&);
