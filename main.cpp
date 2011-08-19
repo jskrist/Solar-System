@@ -16,10 +16,10 @@ int main()
 	mass aMass[numMass];
 
 
-	aMass[0] = mass(0,0,25,0,0,0,0,1.0E14,0);
-	aMass[1] = mass(-250,0,10,0,5,0,0,5.2E12,0);
-//	aMass[2] = new mass(-300,0,4,0,1,0,0,5.2E10,0);		//cool Orbit
-	aMass[2] = mass(-300,0,4,0,2.5,0,0,5.2E10,0);	//Orbiting moon
+	aMass[0] = new mass(0,0,25,0,0,0,0,1.0E14,0);
+	aMass[1] = new mass(-250,0,10,0,5,0,0,5.2E12,0);
+	aMass[2] = new mass(-300,0,4,0,1,0,0,5.2E10,0);		//cool Orbit
+//	aMass[2] = mass(-300,0,4,0,2.5,0,0,5.2E10,0);	//Orbiting moon
 
 	////Solar System
 	//aMass[0] = mass(0,0,6.955E8,0,0,0,0,1.98892E30,0);//Sun
