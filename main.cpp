@@ -9,7 +9,7 @@ int main()
 	static time_t seconds;
 	time_t relSeconds;
 	std::ofstream file;
-	file.open ("./viewPaths_jan24a/grav.csv");
+	file.open ("./grav.csv");
 
 	//double dt = 1;//10.0 / 6.0;//seconds
 	const int numMass = 3;
