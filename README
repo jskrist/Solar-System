@@ -1,5 +1,9 @@
 This project is an attemp to model the massive bodies in our solar system.
 
-It defines a mass class which has the properties of spherical bodies of mass.
-There is a Processing Project that I have created in order to read the output of this program and display an animation of the result.
+It defines a mass class which has the properties of spherical bodies of 
+mass.
+
+There is a Processing Project that I have created in order to read the 
+output of this program and display an animation of the result.
+
 I plan to upload that project soon.
